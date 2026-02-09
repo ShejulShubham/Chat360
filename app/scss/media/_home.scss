@@ -1,94 +1,259 @@
+@include max(d-1200) {
+  .challenges-section {
+    padding-inline: rem(80px);
+  }
 
-@include max(d-1200){
-    
-    .challenges-section {
-        padding-inline: rem(80px);
-    }
+  .ai-engagement-section {
+    padding-inline: rem(100px);
+  }
 
-    .ai-engagement-section {
-        padding-inline: rem(100px);
+  .feature-grid-section {
+    .container {
+      .feature-grid {
+        width: rem(1000px);
+      }
     }
-
-    .feature-grid-section{
-        .container {
-            .feature-grid {
-                width: rem(1000px);
-            }
-        }
-    }
+  }
 }
 
 @media (max-width: 768px) {
-    .success-section {
-        padding: rem(40px) rem(20px);
-        
-        .container {
-            .slider-container {
-                width: 100%;
-                gap: 0;
-            }
-        }
-
-        .success-card {
-            width: 100%;
-            max-width: 100%;
-            padding: rem(30px) rem(20px);
-
-            .card-content {
-                flex-direction: column;
-                width: 100%;
-                gap: rem(30px);
-
-                .stats-visual {
-                    width: 100%;
-                    height: auto;
-                    flex: none;
-                }
-
-                .stats-info {
-                    width: 100%;
-                    flex: none;
-                    text-align: center;
-                    align-items: center;
-
-                    .stats-grid {
-                        grid-template-columns: 1fr;
-                        gap: rem(20px);
-
-                        .stat-item {
-                            width: 100%;
-                        }
-                    }
-                }
-            }
-        }
+  .main-header {
+    .nav-wrapper {
+      padding-top: rem(20px);
+      .logo {
+        width: rem(250px);
+        height: auto;
+      }
     }
+  }
+
+  .hero-section {
+    .hero-container {
+      top: 10%;
+    }
+
+    .hero-content {
+      // .hero-title {
+      //   font-size: rem(50px);
+      //   margin-bottom: rem(20px);
+      // }
+
+      .hero-actions {
+        margin-block: rem(5px);
+      }
+    }
+  }
+
+  .success-section {
+    padding: rem(40px) rem(20px);
+
+    .container {
+      .slider-container {
+        width: 100%;
+        gap: 0;
+      }
+    }
+
+    .success-card {
+      width: 100%;
+      max-width: 100%;
+      padding: rem(30px) rem(20px);
+
+      .card-content {
+        flex-direction: column;
+        width: 100%;
+        gap: rem(30px);
+
+        .stats-visual {
+          width: 100%;
+          height: auto;
+          flex: none;
+        }
+
+        .stats-info {
+          width: 100%;
+          flex: none;
+          text-align: center;
+          align-items: center;
+
+          .stats-grid {
+            grid-template-columns: 1fr;
+            gap: rem(20px);
+
+            .stat-item {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 600px) {
-    .success-section {
-        padding: rem(30px) rem(15px);
+  .success-section {
+    padding: rem(30px) rem(15px);
 
-        .success-card {
-            padding: rem(20px) rem(15px);
-            
-            .card-content {
-                gap: rem(20px);
+    .success-card {
+      padding: rem(20px) rem(15px);
 
-                .stats-info {
-                    h3 {
-                        font-size: rem(20px);
-                    }
+      .card-content {
+        gap: rem(20px);
 
-                    .stats-grid {
-                        .stat-item {
-                            .number {
-                                font-size: rem(36px);
-                            }
-                        }
-                    }
-                }
+        .stats-info {
+          h3 {
+            font-size: rem(20px);
+          }
+
+          .stats-grid {
+            .stat-item {
+              .number {
+                font-size: rem(36px);
+              }
             }
+          }
         }
+      }
     }
+  }
+}
+
+@include max(d-640) {
+  // .main-header {
+  //   .nav-wrapper {
+  //     padding-top: rem(20px);
+  //     .logo {
+  //       width: rem(250px);
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  .hero-section {
+    .hero-container {
+      top: 10%;
+    }
+
+    .hero-content {
+      // .hero-title {
+      //   font-size: rem(50px);
+      //   margin-bottom: rem(20px);
+      // }
+
+      .hero-actions {
+        margin-block: rem(5px);
+      }
+    }
+  }
+}
+
+@include max(d-600) {
+  // .main-header {
+  //   .nav-wrapper {
+  //     padding-top: rem(15px);
+
+  //     .logo {
+  //       width: rem(220px);
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  .hero-section {
+    .hero-container {
+      top: 10%;
+    }
+
+    .hero-content {
+      // .hero-title {
+      //   font-size: rem(40px);
+      // }
+
+      .hero-actions {
+        margin-block: rem(5px);
+      }
+    }
+  }
+}
+
+@include max(d-480) {
+  // .main-header {
+  //   .nav-wrapper {
+  //     padding-top: rem(10px);
+  //     .logo {
+  //       width: rem(220px);
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  .hero-section {
+    .hero-container {
+      top: 4%;
+    }
+
+    .hero-content {
+      // .hero-title {
+      //   font-size: rem(20px);
+      // }
+
+      .hero-actions {
+        margin-block: rem(5px);
+      }
+    }
+  }
+}
+@include max(d-414) {
+  // .main-header {
+  //   .nav-wrapper {
+  //     .logo {
+  //       // width: rem(200px);
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  .hero-section {
+    .hero-container {
+      top: 4%;
+    }
+
+    .hero-content {
+      // .hero-title {
+      //   font-size: rem(14px);
+      // }
+
+      .hero-actions {
+        margin-block: rem(5px);
+      }
+    }
+  }
+}
+
+@include max(d-320) {
+  // .main-header {
+  //   .nav-wrapper {
+  //     .logo {
+  //       // width: rem(200px);
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  .hero-section {
+    .hero-container {
+      top: 3%;
+    }
+
+    .hero-content {
+      // .hero-title {
+      //   font-size: rem(20px);
+      //   margin-bottom: 0;
+      // }
+
+      .hero-actions {
+        margin: rem(10px);
+      }
+    }
+  }
 }

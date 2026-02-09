@@ -4,14 +4,6 @@
         $rem-size: rem(16px);
         font-size: $rem-size;
     }
-    // .container,
-    // .container-lg,
-    // .container-md,
-    // .container-sm,
-    // .container-xl,
-    // .container-xxl {
-    //     max-width: rem(calc(1088px + 24px));
-    // }
 }
 
 
@@ -48,11 +40,43 @@
 @include max(d-1024) {
     html,
     body {
-        $rem-size: 9px;
+        $rem-size: 10px;
         font-size: $rem-size;
     }
 }
 @include max(d-991) {
+    html,
+    body {
+        $rem-size: 8px;
+        font-size: $rem-size;
+    }
+}
+
+@include max(d-768) {
+    html,
+    body {
+        $rem-size: 10px;
+        font-size: $rem-size;
+    }
+}
+
+@include max(d-640){
+    html,
+    body {
+        $rem-size: 10px;
+        font-size: $rem-size;
+    }
+}
+
+@include max(d-600){
+    html,
+    body {
+        $rem-size: 8px;
+        font-size: $rem-size;
+    }
+}
+
+@include max(d-480) {
     html,
     body {
         $rem-size: 7px;
@@ -60,13 +84,10 @@
     }
 }
 
-@include max(d-600) {
-    .container{
-        padding-inline: 22px;
-    }
+@include max(d-320) {
     html,
     body {
-        $rem-size: 16px;
+        $rem-size: 6px;
         font-size: $rem-size;
     }
 }

@@ -19,6 +19,21 @@
             alert("Form has been submitted!");
         }
 
+        // demoSwitcher(); 
+
+        // Demo Switch
+        // $('.btn-demo').on('click', demoSwitcher);
+        
+        // function demoSwitcher(){
+        //     $('#main-switch, footer').toggle();
+    
+        //     const isMainVisible = $('#main-switch').is(':visible');
+    
+        //     const message = isMainVisible ? "Demo has been deactivated" : "Demo has been activated";
+
+        //     alert(message);
+        //  }
+
         // SECTION: ai-engagement-section slider
         $('.engagement-slider-wrapper').slick({
             infinite: true,
@@ -39,9 +54,8 @@
             slidesToScroll: 1,
             dots: false,
             arrows: true,
-            prevArrow: ` <div class="prev-btn"><img src="assets/images/left_arrow.svg" alt="left arrow" /></div>`,
-            nextArrow: ` 
-                <div class="next-btn"><img src="assets/images/right_arrow.svg" alt="right arrow" /></div>`
+            prevArrow: `<div class="prev-btn"><img src="assets/images/left_arrow.svg" alt="left arrow" /></div>`,
+            nextArrow: `<div class="next-btn"><img src="assets/images/right_arrow.svg" alt="right arrow" /></div>`
         });
 
         // SECTION: use-cases-section tabs
@@ -64,7 +78,7 @@
         });
     });
 
-    // Your Code 🗒️
+
 
     // *********************************************
     //     Do not write your code below. ✋😠

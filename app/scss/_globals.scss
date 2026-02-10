@@ -38,7 +38,7 @@ h1 {
 .h2,
 h2 {
   font-weight: $font-sb;
-  font-size: rem(36px);
+  font-size: rem(52px);
 }
 
 .h3,
@@ -67,8 +67,13 @@ h6 {
 
 p {
   color: $p-color;
-  font-weight: $font-r;
-  font-size: rem(24px);
+  font-weight: $font-l;
+  font-size: rem(22px);
+}
+
+strong {
+  color: $p-color;
+  font-weight: $font-eb;
 }
 
 a {

@@ -7,17 +7,17 @@
         // *********************************************
         //     Slider start 🚩
         // ****************************
-        const tabs = document.querySelectorAll('.tab-item');
-        const contents = document.querySelectorAll('.tab-content');
-        const form = document.getElementById("lead-capture-form");
+        // const tabs = document.querySelectorAll('.tab-item');
+        // const contents = document.querySelectorAll('.tab-content');
+        // const form = document.getElementById("lead-capture-form");
 
-        form.addEventListener("submit", handleSubmit);
+        // form.addEventListener("submit", handleSubmit);
 
-        function handleSubmit(e){
-            e.preventDefault();
+        // function handleSubmit(e){
+        //     e.preventDefault();
 
-            alert("Form has been submitted!");
-        }
+        //     alert("Form has been submitted!");
+        // }
 
         // demoSwitcher(); 
 
@@ -59,23 +59,23 @@
         });
 
         // SECTION: use-cases-section tabs
-        tabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                // Remove active class from all tabs and contents
-                tabs.forEach(t => t.classList.remove('active'));
-                contents.forEach(c => c.classList.remove('active'));
+        // tabs.forEach(tab => {
+        //     tab.addEventListener('click', () => {
+        //         // Remove active class from all tabs and contents
+        //         tabs.forEach(t => t.classList.remove('active'));
+        //         contents.forEach(c => c.classList.remove('active'));
 
 
 
-                // Add active class to clicked tab
-                tab.classList.add('active');
-                contents.forEach((c)=>{
-                    if(tab.dataset.tab == c.dataset.tab){
-                        c.classList.add('active');
-                    };
-                })
-            });
-        });
+        //         // Add active class to clicked tab
+        //         tab.classList.add('active');
+        //         contents.forEach((c)=>{
+        //             if(tab.dataset.tab == c.dataset.tab){
+        //                 c.classList.add('active');
+        //             };
+        //         })
+        //     });
+        // });
     });
 
 

@@ -6,14 +6,6 @@
   .ai-engagement-section {
     padding-inline: rem(100px);
   }
-
-  .feature-grid-section {
-    .container {
-      .feature-grid {
-        width: rem(1000px);
-      }
-    }
-  }
 }
 
 @media (max-width: 768px) {
@@ -45,75 +37,15 @@
   }
 
   .success-section {
-    padding: rem(40px) rem(20px);
 
     .container {
       .slider-container {
-        width: 100%;
-        gap: 0;
+        width: rem(1300px);
       }
     }
 
     .success-card {
-      width: 100%;
-      max-width: 100%;
-      padding: rem(30px) rem(20px);
-
-      .card-content {
-        flex-direction: column;
-        width: 100%;
-        gap: rem(30px);
-
-        .stats-visual {
-          width: 100%;
-          height: auto;
-          flex: none;
-        }
-
-        .stats-info {
-          width: 100%;
-          flex: none;
-          text-align: center;
-          align-items: center;
-
-          .stats-grid {
-            grid-template-columns: 1fr;
-            gap: rem(20px);
-
-            .stat-item {
-              width: 100%;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .success-section {
-    padding: rem(30px) rem(15px);
-
-    .success-card {
-      padding: rem(20px) rem(15px);
-
-      .card-content {
-        gap: rem(20px);
-
-        .stats-info {
-          h3 {
-            font-size: rem(20px);
-          }
-
-          .stats-grid {
-            .stat-item {
-              .number {
-                font-size: rem(36px);
-              }
-            }
-          }
-        }
-      }
+      
     }
   }
 }
@@ -187,6 +119,27 @@
   //   }
   // }
 
+  .challenges-section {
+    .container {
+      .section-header {
+        width: 100%;
+        
+        h2 {
+          width: 100%;
+        }
+  
+        p {
+          width: 100%;
+        }
+      }
+      
+      .challenges-path-container {
+        margin-top: rem(-20px);
+      }
+    }
+
+  }
+
   .hero-section {
     .hero-container {
       top: 4%;
@@ -203,6 +156,7 @@
     }
   }
 }
+
 @include max(d-414) {
   // .main-header {
   //   .nav-wrapper {
@@ -215,7 +169,7 @@
 
   .hero-section {
     .hero-container {
-      top: 4%;
+      top: 5%;
     }
 
     .hero-content {
@@ -225,6 +179,14 @@
 
       .hero-actions {
         margin-block: rem(5px);
+      }
+    }
+  }
+
+  .feature-grid-section {
+    .feature-grid {
+      .feature-card {
+        width: rem(180px);
       }
     }
   }
@@ -242,7 +204,7 @@
 
   .hero-section {
     .hero-container {
-      top: 3%;
+      top: 4%;
     }
 
     .hero-content {

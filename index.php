@@ -35,7 +35,7 @@
         <section class="challenges-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Challenges that Hinder <br>Customer Experience</h2>
+                    <h2 class="gradient-text" >Challenges that Hinder <br>Customer Experience</h2>
                     <p>The global FinTech industry serves millions of users daily across various platforms. Despite technological advancements, <strong>72% of companies still struggle</strong> to deliver a seamless customer experience, preventing them from becoming truly customer-centric.
                     </p>
                 </div>
@@ -54,7 +54,7 @@
         <!-- <section class="ai-engagement-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Elevate Customer Experience <br/> with AI-Powered Engagement</h2>
+                    <h2 class="gradient-text">Elevate Customer Experience <br/> with AI-Powered Engagement</h2>
                     <a href="#" class="btn">Talk to Our Experts</a>
                 </div>
     
@@ -123,12 +123,12 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     
         <section class="feature-grid-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Chat360-An Ideal Choice for FinTech Companies</h2>
+                    <h2 class="gradient-text">Chat360-An Ideal Choice for FinTech Companies</h2>
                     <p>Enhance customer experience, engage users across platforms, and amplify overall business performance by up to 30%.
                     </p>
                 </div>
@@ -198,7 +198,7 @@
         <section class="success-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Proven Success with <span>Chat360</span></h2>
+                    <h2 class="gradient-text">Proven Success with Chat360</h2>
                     <p>Our clients have reported a 25% improvement in conversational AI <br />accuracy, leading to better customer sentiment understanding and ,<br /> service delivery.</p>
                 </div>
     
@@ -272,7 +272,7 @@
             </div>
         </section>
     
-        <section class="use-cases-section">
+        <!-- <section class="use-cases-section">
             <div class="container">
                 <div class="section-header">
                     <h2>Real-World <span>Use Cases</span> of Chat360</h2>
